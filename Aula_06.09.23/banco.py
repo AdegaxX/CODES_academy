@@ -37,6 +37,8 @@ class Banco:
         else:
             print('Conta inexistente!')
 
-    #def saldo(self, numero):
+''' Depois arrumo isso
+    def saldo(self, numero):
 
-    #def transferir(self, origem, destino, valor):
+    def transferir(self, origem, destino, valor):
+'''
