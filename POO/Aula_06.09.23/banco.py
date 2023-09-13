@@ -47,8 +47,8 @@ class Banco:
 
     def transferir(self, origem, destino, valor):
         # Verificar se as duas contas existem:
-        conta_origem = procurar_conta(origem)
-        conta_destino = procurar_conta(destino)
+        conta_origem = self.procurar_conta(origem)
+        conta_destino = self.procurar_conta(destino)
 
         if conta_origem and conta_destino:  # Testa se as duas contas existem para realizar as transações
             if conta_origem.get_saldo() >= valor:   # Testa se o valor da tranf está na conta

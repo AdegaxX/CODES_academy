@@ -2,25 +2,19 @@ from conta import Conta
 
 class Banco:
     def __init__(self):
-        self.contas = [None] * 100
-        self.indice = 0
+        self.contas = []
 
     def cadastrar(self, conta: Conta):
-        self.contas[self.indice] = conta
-        self.indice += 1
+        self.contas.append(conta)
 
     def procurar_conta(self, numero):
-        i = 0
-        achou = False
-        while achou is False and i < self.indice:
-            if self.contas[i].get_numero() == numero:
-                achou = True
+
+        for conta in self.contas:
+            if conta.get_numero() == numero:
+                return conta
             else:
-                i += 1
-        if achou is True:
-            return self.contas[i]
-        else:
-            return None
+                return None
+
 
     def creditar(self, numero, valor):
         conta = self.procurar_conta(numero)
@@ -47,8 +41,8 @@ class Banco:
 
     def transferir(self, origem, destino, valor):
         # Verificar se as duas contas existem:
-        conta_origem = procurar_conta(origem)
-        conta_destino = procurar_conta(destino)
+        conta_origem = self.procurar_conta(origem)
+        conta_destino = self.procurar_conta(destino)
 
         if conta_origem and conta_destino:  # Testa se as duas contas existem para realizar as transações
             if conta_origem.get_saldo() >= valor:   # Testa se o valor da tranf está na conta
