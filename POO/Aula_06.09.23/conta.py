@@ -9,10 +9,10 @@ class Conta:
         self.__saldo += valor
 
     def debitar(self, valor):
-        if self.saldo > valor:
-            self.__saldo -= valor
-        else:
-            print('Saldo insuficiente!')
+        #if self.saldo >= valor:
+        self.__saldo -= valor
+        #else:
+        print('Saldo insuficiente!')
     def numero(self):
         pass
 
@@ -30,4 +30,3 @@ class Conta:
 
     def set_saldo(self, saldo):
         self.__saldo = saldo
-
