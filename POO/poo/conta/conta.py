@@ -1,5 +1,3 @@
-# Conta class: descrição
-
 class Conta:
     def __init__(self, numero):
         self.__numero = numero
@@ -9,10 +7,7 @@ class Conta:
         self.__saldo += valor
 
     def debitar(self, valor):
-        #if self.saldo >= valor:
         self.__saldo -= valor
-        #else:
-        #print('Saldo insuficiente!')
 
     def get_numero(self):
         return self.__numero
