@@ -4,4 +4,3 @@ class Carro:
         self.velocidade = velocidade
         self.quilometro = quilometro
 
-    
