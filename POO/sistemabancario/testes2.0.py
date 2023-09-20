@@ -1,4 +1,4 @@
-from POO.poo.conta.contapoupanca import ContaPoupanca
+from POO.sistemabancario.conta.contapoupanca import ContaPoupanca
 from conta import Conta
 
 class CriarPoupanca:
