@@ -3,7 +3,7 @@
 def hanoi(disco: int, origem: str, auxiliar, destino: str) -> None:
     if disco <= 0:
         return
-    hanoi(disco - 1, origem, destino, auxiliar)/
+    hanoi(disco - 1, origem, destino, auxiliar)
     print(f'Movendo disco {disco} de {origem} para {destino}')
     hanoi(disco - 1, auxiliar, origem, destino)
 
