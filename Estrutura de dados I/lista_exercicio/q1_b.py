@@ -13,5 +13,4 @@ def cal_quadrado():
     print(f'S = {div}')
     print(f'A soma dos quadrados até o {list} é igual à {contador}')
     return None
-
 print(cal_quadrado())

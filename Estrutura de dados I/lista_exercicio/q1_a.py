@@ -1,6 +1,5 @@
 # Questão 1:
 # a)
-
 def cal_quadrado():
     list = int(input('Até qual valor deseja elevar ao quadrado? '))
     contador = 0
@@ -8,5 +7,4 @@ def cal_quadrado():
         contador += i ** 2
     print(f'A soma dos quadrados até o {list} é igual à {contador}')
     return None
-
 print(cal_quadrado())
