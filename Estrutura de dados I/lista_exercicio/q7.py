@@ -4,5 +4,5 @@ lista1 is lista2
 False
 lista1 == lista2
 True
-#(b) Verificar se os conjuntos são do mesmo tamanho e se cada item
-#em um conjunto também está no outro conjunto.
+
+# b) Verificar se os conjuntos são do mesmo tamanho e se cada item em um conjunto também está no outro conjunto.

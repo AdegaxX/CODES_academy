@@ -7,7 +7,7 @@ def cal_quadrado():
         contador += i ** 2
     soma = (list * (list + 1)) * (2 * (list + 1))
     div = soma / 6
-    print('A fórmula da soma dos quadrados é: S = (n * (n+1) * (2n+1))')
+    print('A fórmula da soma dos quadrados é: S = (n * (n+1) * (2n+1)) / 6')
     print(f'S = ({list} * ({list}+1) * (2*({list}+1)) / 6')
     print(f'S = {soma} / 6')
     print(f'S = {div}')
