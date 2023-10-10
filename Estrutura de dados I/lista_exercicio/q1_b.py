@@ -12,5 +12,5 @@ def cal_quadrado():
     print(f'S = {soma} / 6')
     print(f'S = {div}')
     print(f'A soma dos quadrados até o {list} é igual à {contador}')
-    return None
+    return 'Fim'
 print(cal_quadrado())
