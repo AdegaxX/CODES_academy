@@ -1,4 +1,3 @@
-
 listaa = []
 listaa.append('x')  # Adiciona a letra 'x' ao fim da lista. sendo o primeiro elemento.
 print(listaa)
@@ -14,3 +13,4 @@ listaa.append('k')  # Adiciona a letra 'k' na lista.
 listaa.append('y')  # Adiciona a letra 'y' na lista.
 listaa.append('z')  # Adiciona a letra 'z' na lista.
 print(listaa)
+print('Dedé lindaaaa')
