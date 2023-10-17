@@ -1,3 +1,5 @@
+
+
 listaa = []
 listaa.append('x')  # Adiciona a letra 'x' ao fim da lista. sendo o primeiro elemento.
 print(listaa)
